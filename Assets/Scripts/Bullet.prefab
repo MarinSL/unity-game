@@ -31,6 +31,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 0}
@@ -47,7 +51,7 @@ GameObject:
   - component: {fileID: 212402831295010088}
   - component: {fileID: 50718354876880780}
   - component: {fileID: 58242321707895012}
-  - component: {fileID: 114455869286471980}
+  - component: {fileID: 114174051082042418}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -103,7 +107,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.39999998
---- !u!114 &114455869286471980
+--- !u!114 &114174051082042418
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -114,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b4ea19d67c25d74fb3a2896345ddf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 1
 --- !u!212 &212402831295010088
 SpriteRenderer:
   m_ObjectHideFlags: 1

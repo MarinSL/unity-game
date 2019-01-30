@@ -5,13 +5,15 @@ using UnityEngine;
 
 public class shoot : MonoBehaviour {
 
-    public int nBullets = 0 ;
+    int nBullets = 0 ;
+    int nActiveBullets = 0;
     int currentAmmo = 500;
+    bool gotBullet;
     public float fireRate;
     public Transform firePoint;
     public GameObject bulletPrefab;
 
-    int nBulletsInPool = 20;//20 - max number of bullets on screen
+    int nBulletsInPool = 5;//20 - max number of bullets on screen
     List<GameObject> bullets; 
 
     float nextFire;
@@ -20,16 +22,32 @@ public class shoot : MonoBehaviour {
     {
        /* if (Time.time > nextFire)
         {
-            nextFire = Time.time + fireRate;*/
-            nBullets++;
-            if (nBullets >= nBulletsInPool) nBullets = 0;
-            if(!bullets[nBullets].activeInHierarchy)
+            nextFire = Time.time + fireRate;  //in case we need */
+            for (int i = 0; i < nBulletsInPool; i++)
             {
-                //shoot in the direction of the weapon/player
-                bullets[nBullets].transform.rotation = firePoint.rotation;
-                bullets[nBullets].transform.position = firePoint.position;
-                bullets[nBullets].SetActive(true);
+                if (!bullets[i].activeInHierarchy)
+                {
+                    bullets[i].transform.rotation = firePoint.rotation;
+                    bullets[i].transform.position = firePoint.position;
+                    bullets[i].SetActive(true);
+                    break;
+                } else
+                {
+                    nActiveBullets++;
+                }
             }
+
+            if(nActiveBullets==nBulletsInPool)
+            {
+                GameObject bullet;
+                bullet = Instantiate(bulletPrefab);
+                bullets.Add(bullet);
+                bullet.SetActive(false);
+                nBulletsInPool++;
+                return;
+            } else { nActiveBullets = 0; }
+
+            
           /*  currentAmmo--;
         }*/
     }
@@ -43,7 +61,6 @@ public class shoot : MonoBehaviour {
             bullets.Add(bullet);
             bullet.SetActive(false);
         }
-
     }
 
     // Use this for initialization
@@ -60,7 +77,6 @@ public class shoot : MonoBehaviour {
         {
             if (Input.GetButtonDown("Fire1"))
             {
-                Debug.Log("meow");
                 Shoot();
             }
         }

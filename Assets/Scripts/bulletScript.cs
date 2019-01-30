@@ -10,11 +10,17 @@ public class bulletScript : MonoBehaviour {
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.velocity = transform.up * speed;
+       
     }
 
     void Update()
     {
         //set active
+        rb.velocity = transform.up * speed;
+    }
+
+    void OnBecameInvisible()
+    {
+        gameObject.SetActive(false);
     }
 }
