@@ -7,20 +7,20 @@ public class EnemyType1Movemnt : MonoBehaviour {
     float amplitude = 2;
     float index = 0;
     float pi = Mathf.PI;
-    float speed = 0.1f;
+    float speed = 0.3f;
     float x, y;
-
+    float frequency = 0.5f;
     void Start()
     {
-        
+      
     }
 
-    void FixedUpdate()
+    void FixedUpdate()       
     {
-        index++;
-        x = amplitude * Mathf.Sin(index *0.1f * pi/20);
-        y -= speed;
+        // lastPosition = transform.position;
         amplitude = Random.Range(1, 5);
-        transform.position = new Vector3(x, y, 0);
+        frequency = Random.Range(1, 2);
+        transform.position += amplitude * (Mathf.Sin(2 * Mathf.PI * frequency * (Time.time - Time.deltaTime)) - Mathf.Sin(2 * Mathf.PI * frequency * Time.time)) * transform.right;
+        transform.position -= transform.up * Mathf.Sin(Mathf.PI/80);
     }
 }
