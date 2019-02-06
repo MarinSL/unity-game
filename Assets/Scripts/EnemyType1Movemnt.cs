@@ -17,10 +17,11 @@ public class EnemyType1Movemnt : MonoBehaviour {
 
     void FixedUpdate()       
     {
+        Random.seed = System.DateTime.Now.Millisecond;
         // lastPosition = transform.position;
-        amplitude = Random.Range(1, 5);
+        amplitude = Random.Range(1, 10);
         frequency = Random.Range(1, 2);
-        transform.position += amplitude * (Mathf.Sin(2 * Mathf.PI * frequency * (Time.time - Time.deltaTime)) - Mathf.Sin(2 * Mathf.PI * frequency * Time.time)) * transform.right;
-        transform.position -= transform.up * Mathf.Sin(Mathf.PI/80);
+        transform.position += Mathf.Abs(Mathf.Sin(Mathf.PI / 50)) * (amplitude * (Mathf.Sin(2 * Mathf.PI * frequency * (Time.time - Time.deltaTime)) - Mathf.Sin(2 * Mathf.PI * frequency * Time.time))) * transform.right;
+        transform.position -= transform.up * Mathf.Abs(Mathf.Sin(Mathf.PI/100));
     }
 }
