@@ -23,4 +23,12 @@ public class bulletScript : MonoBehaviour {
     {
         gameObject.SetActive(false);
     }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (!col.gameObject.CompareTag("bullet"))
+        {
+            gameObject.SetActive(false);
+        }
+    }
 }
