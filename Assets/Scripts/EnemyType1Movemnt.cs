@@ -3,25 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyType1Movemnt : MonoBehaviour {
+    public float amplitudeMin = 1;
+    public float amplitudeMax = 5;
+    public float frequencyMin = 1;
+    public float frequencyMax = 5;
+    public float speed = 150;
 
-    float amplitude = 2;
-    float index = 0;
-    float pi = Mathf.PI;
-    float speed = 0.3f;
-    float x, y;
-    float frequency = 0.5f;
+    float frequency;
+    float amplitude;
+    
     void Start()
     {
-      
+        if (speed > 300) speed = 300;
+        if (amplitude > 30) amplitude = 30;
+        amplitude = Random.Range(amplitudeMin, amplitudeMax);
+        frequency = Random.Range(frequencyMin, frequencyMax);
     }
 
     void FixedUpdate()       
     {
         Random.seed = System.DateTime.Now.Millisecond;
         // lastPosition = transform.position;
-        amplitude = Random.Range(1, 10);
-        frequency = Random.Range(1, 2);
-        transform.position += Mathf.Abs(Mathf.Sin(Mathf.PI / 50)) * (amplitude * (Mathf.Sin(2 * Mathf.PI * frequency * (Time.time - Time.deltaTime)) - Mathf.Sin(2 * Mathf.PI * frequency * Time.time))) * transform.right;
-        transform.position -= transform.up * Mathf.Abs(Mathf.Sin(Mathf.PI/100));
+       // amplitude = Random.Range(1, 10);
+       // frequency = Random.Range(1, 2);
+        transform.position += Mathf.Abs(Mathf.Sin(Mathf.PI / (30-amplitude))) * (amplitude * (Mathf.Sin(2 * Mathf.PI * frequency * (Time.time - Time.deltaTime)) - Mathf.Sin(2 * Mathf.PI * frequency * Time.time))) * transform.right;
+        transform.position -= transform.up * Mathf.Abs(Mathf.Sin(Mathf.PI/(300-speed)));
     }
 }
