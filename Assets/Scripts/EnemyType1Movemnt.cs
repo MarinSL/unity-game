@@ -32,7 +32,9 @@ public class EnemyType1Movemnt : MonoBehaviour {
         transform.position += Mathf.Abs(Mathf.Sin(Mathf.PI / (300-speed))) * (amplitude * (Mathf.Sin(2 * Mathf.PI * frequency * (Time.time - Time.deltaTime)) - Mathf.Sin(2 * Mathf.PI * frequency * Time.time))) * transform.right;
         transform.position -= transform.up * Mathf.Abs(Mathf.Sin(Mathf.PI/(300-speed)));*/
 
-        transform.position =  new Vector3(initPos.x + amplitude * Mathf.Sin(2 * Mathf.PI * frequency * Time.time) /*Mathf.PingPong(Time.time, amplitude)*/, transform.position.y- Mathf.Abs(Mathf.Sin(Mathf.PI / (300 - speed))), transform.position.z);
-        //initPos = new Vector3(0, 0, 0);
+        transform.position =  new Vector3(initPos.x + amplitude * Mathf.Sin(2 * Mathf.PI * frequency * Time.time), transform.position.y- Mathf.Abs(Mathf.Sin(Mathf.PI / (300 - speed))), transform.position.z);
+   
+
+
     }
 }
