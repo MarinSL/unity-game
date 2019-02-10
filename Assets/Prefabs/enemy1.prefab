@@ -136,9 +136,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amplitudeMin: 1
   amplitudeMax: 5
-  frequencyMin: 1
-  frequencyMax: 5
-  speed: 50
+  frequencyMin: 3
+  frequencyMax: 7
+  speed: 250
 --- !u!50 &50898844080382148
 Rigidbody2D:
   serializedVersion: 4

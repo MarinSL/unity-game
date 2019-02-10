@@ -22,11 +22,12 @@ public class EnemyType1Movemnt : MonoBehaviour {
 
     void FixedUpdate()       
     {
-        Random.seed = System.DateTime.Now.Millisecond;
-        // lastPosition = transform.position;
-       // amplitude = Random.Range(1, 10);
-       // frequency = Random.Range(1, 2);
-        transform.position += Mathf.Abs(Mathf.Sin(Mathf.PI / (30-amplitude))) * (amplitude * (Mathf.Sin(2 * Mathf.PI * frequency * (Time.time - Time.deltaTime)) - Mathf.Sin(2 * Mathf.PI * frequency * Time.time))) * transform.right;
-        transform.position -= transform.up * Mathf.Abs(Mathf.Sin(Mathf.PI/(300-speed)));
+        /*Random.seed = System.DateTime.Now.Millisecond;
+        amplitude = Random.Range(1, 10);
+        frequency = Random.Range(1, 2);
+        transform.position += Mathf.Abs(Mathf.Sin(Mathf.PI / (300-speed))) * (amplitude * (Mathf.Sin(2 * Mathf.PI * frequency * (Time.time - Time.deltaTime)) - Mathf.Sin(2 * Mathf.PI * frequency * Time.time))) * transform.right;
+        transform.position -= transform.up * Mathf.Abs(Mathf.Sin(Mathf.PI/(300-speed)));*/
+
+        transform.position = new Vector3(frequency * Mathf.PingPong(Time.time, amplitude), transform.position.y- Mathf.Abs(Mathf.Sin(Mathf.PI / (300 - speed))), transform.position.z);
     }
 }
