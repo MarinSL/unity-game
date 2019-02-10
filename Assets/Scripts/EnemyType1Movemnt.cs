@@ -16,25 +16,15 @@ public class EnemyType1Movemnt : MonoBehaviour {
     
     void Start()
     {
-        if (speed > 300) speed = 300;
+        if (speed > 150) speed = 150;
         if (amplitude > 30) amplitude = 30;
         amplitude = Random.Range(amplitudeMin, amplitudeMax);
         frequency = Random.Range(frequencyMin, frequencyMax);
         initPos = transform.position;
-      //  Debug.Log(initPos.x+", " + initPos.y);
     }
 
     void FixedUpdate()       
     {
-        /*Random.seed = System.DateTime.Now.Millisecond;
-        amplitude = Random.Range(1, 10);
-        frequency = Random.Range(1, 2);
-        transform.position += Mathf.Abs(Mathf.Sin(Mathf.PI / (300-speed))) * (amplitude * (Mathf.Sin(2 * Mathf.PI * frequency * (Time.time - Time.deltaTime)) - Mathf.Sin(2 * Mathf.PI * frequency * Time.time))) * transform.right;
-        transform.position -= transform.up * Mathf.Abs(Mathf.Sin(Mathf.PI/(300-speed)));*/
-
-        transform.position =  new Vector3(initPos.x + amplitude * Mathf.Sin(2 * Mathf.PI * frequency * Time.time), transform.position.y- Mathf.Abs(Mathf.Sin(Mathf.PI / (300 - speed))), transform.position.z);
-   
-
-
+        transform.position =  new Vector3(initPos.x + amplitude * Mathf.Sin(2 * Mathf.PI * frequency * Time.time), transform.position.y- Mathf.Abs(Mathf.Sin(Mathf.PI/2)), transform.position.z);
     }
 }
