@@ -24,8 +24,9 @@ public class RepeatingBackground : MonoBehaviour
 
     private void RepositionBackground()
     {
-        Vector3 backgroundOffset = new Vector3(0,- backgroundLength * 8f, transform.position.z);
-        transform.position = (Vector3)transform.position + backgroundOffset;
+        Vector2 backgroundOffset = new Vector2(0,- backgroundLength * 8f);
+        transform.position = (Vector2)transform.position + backgroundOffset;
+        transform.position =transform.position + new Vector3(0,0,2);
     }
 
 }
