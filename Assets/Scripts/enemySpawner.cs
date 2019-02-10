@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class enemySpawner : MonoBehaviour {
     public GameObject enemyPrefab;
-    public int spawnRate;
+    public float spawnRate;
+    public float spawnRangeMin = -2.5f;
+    public float spawnRangeMax =2.5f;
     float timeStart;
     float timeDif;
 	// Use this for initialization
@@ -19,7 +21,7 @@ public class enemySpawner : MonoBehaviour {
         {
             GameObject enemy;
             enemy = Instantiate(enemyPrefab);
-            Vector3 newPos = new Vector3(transform.position.x + Random.Range(-5, 5), 0, 0);
+            Vector3 newPos = new Vector3(transform.position.x + Random.Range(spawnRangeMin, spawnRangeMax), 0, 0);
             enemy.transform.position = transform.position + newPos;
             timeStart = Time.time;
         }

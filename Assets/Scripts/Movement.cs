@@ -5,6 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour {
     public int speed;
     Rigidbody2D rb;
+    
 
 
     // Use this for initialization
@@ -15,6 +16,6 @@ public class Movement : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
         rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * speed, 0);
-        
+       
     }
 }

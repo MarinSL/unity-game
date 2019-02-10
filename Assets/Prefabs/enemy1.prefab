@@ -134,11 +134,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3dd8ac0ac6eb12408930ac903f4e240, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitudeMin: 1
-  amplitudeMax: 5
-  frequencyMin: 3
-  frequencyMax: 7
-  speed: 250
+  amplitudeMin: 4
+  amplitudeMax: 4
+  frequencyMin: 0.1
+  frequencyMax: 0.5
+  speed: 20
 --- !u!50 &50898844080382148
 Rigidbody2D:
   serializedVersion: 4

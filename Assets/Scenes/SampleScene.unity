@@ -912,6 +912,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 1981814199846034, guid: 0946c758c2ef1e04892d3864849cb82b,
     type: 3}
   spawnRate: 2
+  spawnRangeMin: -2.5
+  spawnRangeMax: 2.5
 --- !u!61 &2144672638
 BoxCollider2D:
   m_ObjectHideFlags: 0
