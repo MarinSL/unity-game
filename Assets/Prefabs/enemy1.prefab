@@ -159,4 +159,4 @@ MonoBehaviour:
   amplitudeMax: 50
   frequencyMin: 0.05
   frequencyMax: 0.3
-  speed: 250
+  speed: 75

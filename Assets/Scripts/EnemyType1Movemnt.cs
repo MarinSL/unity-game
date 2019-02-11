@@ -7,7 +7,7 @@ public class EnemyType1Movemnt : MonoBehaviour {
     public float amplitudeMax = 5;
     public float frequencyMin = 1;
     public float frequencyMax = 5;
-    public float speed = 150;
+    public float speed = 1;
 
     float frequency;
     float amplitude;
@@ -25,6 +25,6 @@ public class EnemyType1Movemnt : MonoBehaviour {
 
     void FixedUpdate()       
     {
-        transform.position =  new Vector3(initPos.x + amplitude * Mathf.Sin(2 * Mathf.PI * frequency * Time.time), transform.position.y- Mathf.Abs(Mathf.Sin(Mathf.PI/2)), transform.position.z);
+        transform.position =  new Vector3(initPos.x + amplitude * Mathf.Sin(2 * Mathf.PI * frequency * Time.time), transform.position.y-speed*Mathf.Abs(Mathf.Sin(Mathf.PI/200)), transform.position.z);
     }
 }
