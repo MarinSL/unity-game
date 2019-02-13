@@ -179,4 +179,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7f09d99378209447ab90c17bd809432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
+
+  health: 1
+ 
+=======
+  amplitudeMin: 25
+  amplitudeMax: 50
+  frequencyMin: 0.05
+  frequencyMax: 0.3
+  speed: 75
+
