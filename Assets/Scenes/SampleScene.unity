@@ -629,7 +629,7 @@ GameObject:
   - component: {fileID: 821920520}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1063,7 +1063,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2144672640}
   - component: {fileID: 2144672639}
-  - component: {fileID: 2144672638}
   - component: {fileID: 2144672637}
   m_Layer: 0
   m_Name: enemy spawner
@@ -1084,37 +1083,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53c2d53593fe79d45a4ad9b3c2f57f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1981814199846034, guid: 0946c758c2ef1e04892d3864849cb82b,
-    type: 3}
+  enemyPrefab: {fileID: 1518755369, guid: 13db77185aeb83542b14e9dddf6630ee, type: 3}
   spawnRate: 2
   spawnRangeMin: -240
   spawnRangeMax: 240
---- !u!61 &2144672638
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2144672636}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 5, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &2144672639
 SpriteRenderer:
   m_ObjectHideFlags: 0
