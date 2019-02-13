@@ -47,9 +47,6 @@ public class shoot : MonoBehaviour {
                 return;
             } else { nActiveBullets = 0; }
 
-            
-          /*  currentAmmo--;
-        }*/
     }
 
     void setBulletsArray()
