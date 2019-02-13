@@ -52,7 +52,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 2
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -103,7 +103,7 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -123,7 +123,7 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -143,7 +143,7 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,7 +163,7 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -183,7 +183,7 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -203,7 +203,7 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,7 +223,7 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -243,7 +243,7 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -263,7 +263,7 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -283,33 +283,13 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: fb325f4af52c22c4282456ef67cd0769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ball_sprite (1)_10
-      rect:
-        serializedVersion: 2
-        x: 1118
-        y: 0
-        width: 559
-        height: 1234
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbcbafff69cecc5458eecc9d55362bb0
       vertices: []
       indices: 
       edges: []
