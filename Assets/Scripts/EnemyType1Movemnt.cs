@@ -27,4 +27,17 @@ public class EnemyType1Movemnt : MonoBehaviour {
     {
         transform.position =  new Vector3(initPos.x + amplitude * Mathf.Sin(2 * Mathf.PI * frequency * Time.time), transform.position.y-speed*Mathf.Abs(Mathf.Sin(Mathf.PI/200)), transform.position.z);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.name == "BorderLeft")
+        {
+            transform.position = new Vector3(collision.gameObject.transform.position.x + 10, transform.position.y, transform.position.z);
+        }
+        if (collision.gameObject.name == "BorderRight")
+        {
+            transform.position = new Vector3(collision.gameObject.transform.position.x - 10, transform.position.y, transform.position.z);
+        }
+
+    }
 }
