@@ -166,7 +166,7 @@ MonoBehaviour:
   amplitudeMax: 50
   frequencyMin: 0.05
   frequencyMax: 0.3
-  speed: 250
+  speed: 75
 --- !u!114 &3643269865082504080
 MonoBehaviour:
   m_ObjectHideFlags: 0
