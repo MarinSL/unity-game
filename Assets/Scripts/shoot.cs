@@ -18,7 +18,7 @@ public class shoot : MonoBehaviour {
 
     float nextFire;
 
-    void Shoot()
+   public void Shoot()
     {
        /* if (Time.time > nextFire)
         {
@@ -70,12 +70,6 @@ public class shoot : MonoBehaviour {
     
 	// Update is called once per frame
 	void Update () {
-		if (currentAmmo > 0)
-        {
-            if (Input.GetButtonDown("Fire1"))
-            {
-                Shoot();
-            }
-        }
+        //Shoot();
 	}
 }
