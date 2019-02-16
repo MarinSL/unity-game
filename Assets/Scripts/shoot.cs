@@ -13,7 +13,7 @@ public class shoot : MonoBehaviour {
     public Transform firePoint;
     public GameObject bulletPrefab;
 
-    int nBulletsInPool = 5;//20 - max number of bullets on screen
+    int nBulletsInPool = 20;//20 - max number of bullets on screen
     List<GameObject> bullets; 
 
     float nextFire;
