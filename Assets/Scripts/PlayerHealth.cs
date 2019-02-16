@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("enemy") || collision.gameObject.CompareTag("EnemyBullet"))
+        if(collision.gameObject.CompareTag("enemy1"))
         {
             health -= damage1;
             if (health <= 0) Debug.Log("Player is dead");
