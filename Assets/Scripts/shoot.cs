@@ -18,7 +18,9 @@ public class shoot : MonoBehaviour {
 
     float nextFire;
 
-   public void Shoot()
+
+    public void Shoot()
+
     {
        /* if (Time.time > nextFire)
         {
@@ -70,6 +72,6 @@ public class shoot : MonoBehaviour {
     
 	// Update is called once per frame
 	void Update () {
-        //Shoot();
+
 	}
 }

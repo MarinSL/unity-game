@@ -12,7 +12,9 @@ public class EnemyType3Movement : MonoBehaviour
     GameObject player;
     GameObject bullet;
 
-    float angle;
+
+    public float angle;
+
     float nextFire = 0;
     float fireRate = 2;
     // Start is called before the first frame update
@@ -28,7 +30,9 @@ public class EnemyType3Movement : MonoBehaviour
 
     void Shoot()
     {
-        if (Time.time > nextFire && PlayerIsNear())
+
+        if (Time.time >= nextFire && PlayerIsNear())
+
         {
             nextFire = Time.time + fireRate;
             GetComponent<shoot>().Shoot();
@@ -44,7 +48,9 @@ public class EnemyType3Movement : MonoBehaviour
         else return false;
 
         angle = Mathf.Abs(Vector3.Angle(targetDir, down));
-        if (angle < 20)
+
+        if (angle < 10)
+
         {
             return true;
         }
