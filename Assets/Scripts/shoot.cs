@@ -18,7 +18,11 @@ public class shoot : MonoBehaviour {
 
     float nextFire;
 
+<<<<<<< HEAD
    public void Shoot()
+=======
+    public void Shoot()
+>>>>>>> 3rd enemy + bullet collision
     {
        /* if (Time.time > nextFire)
         {
@@ -70,6 +74,10 @@ public class shoot : MonoBehaviour {
     
 	// Update is called once per frame
 	void Update () {
+<<<<<<< HEAD
         //Shoot();
+=======
+		
+>>>>>>> 3rd enemy + bullet collision
 	}
 }
