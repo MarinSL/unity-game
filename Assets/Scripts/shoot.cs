@@ -16,13 +16,14 @@ public class shoot : MonoBehaviour {
     int nBulletsInPool = 5;//20 - max number of bullets on screen
     List<GameObject> bullets; 
 
-    float nextFire;
+    float nextFire = 0;
 
-    public void Shoot()
+    public void Shoot(float fr)
     {
-       /* if (Time.time > nextFire)
+        fireRate = fr;
+        if (Time.time > nextFire)
         {
-            nextFire = Time.time + fireRate;  //in case we need */
+            nextFire = Time.time + fireRate;
             for (int i = 0; i < nBulletsInPool; i++)
             {
                 if (!bullets[i].activeInHierarchy)
@@ -31,13 +32,14 @@ public class shoot : MonoBehaviour {
                     bullets[i].transform.position = firePoint.position;
                     bullets[i].SetActive(true);
                     break;
-                } else
+                }
+                else
                 {
                     nActiveBullets++;
                 }
             }
 
-            if(nActiveBullets==nBulletsInPool)
+            if (nActiveBullets == nBulletsInPool)
             {
                 GameObject bullet;
                 bullet = Instantiate(bulletPrefab);
@@ -45,8 +47,9 @@ public class shoot : MonoBehaviour {
                 bullet.SetActive(false);
                 nBulletsInPool++;
                 return;
-            } else { nActiveBullets = 0; }
-
+            }
+            else { nActiveBullets = 0; }
+        }
     }
 
     void setBulletsArray()
