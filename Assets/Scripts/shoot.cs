@@ -22,7 +22,7 @@ public class shoot : MonoBehaviour {
     public void Shoot()
 
     {
-       /* if (Time.time > nextFire)
+        if (Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;  //in case we need */
             for (int i = 0; i < nBulletsInPool; i++)
@@ -33,13 +33,14 @@ public class shoot : MonoBehaviour {
                     bullets[i].transform.position = firePoint.position;
                     bullets[i].SetActive(true);
                     break;
-                } else
+                }
+                else
                 {
                     nActiveBullets++;
                 }
             }
 
-            if(nActiveBullets==nBulletsInPool)
+            if (nActiveBullets == nBulletsInPool)
             {
                 GameObject bullet;
                 bullet = Instantiate(bulletPrefab);
@@ -47,8 +48,9 @@ public class shoot : MonoBehaviour {
                 bullet.SetActive(false);
                 nBulletsInPool++;
                 return;
-            } else { nActiveBullets = 0; }
-
+            }
+            else { nActiveBullets = 0; }
+        }
     }
 
     void setBulletsArray()
