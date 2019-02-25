@@ -26,16 +26,19 @@ public class shoot : MonoBehaviour {
             nextFire = Time.time + fireRate;
             for (int i = 0; i < nBulletsInPool; i++)
             {
-                if (!bullets[i].activeInHierarchy)
+                if (bullets[i] != null)
                 {
-                    bullets[i].transform.rotation = firePoint.rotation;
-                    bullets[i].transform.position = firePoint.position;
-                    bullets[i].SetActive(true);
-                    break;
-                }
-                else
-                {
-                    nActiveBullets++;
+                    if (!bullets[i].activeInHierarchy)
+                    {
+                        bullets[i].transform.rotation = firePoint.rotation;
+                        bullets[i].transform.position = firePoint.position;
+                        bullets[i].SetActive(true);
+                        break;
+                    }
+                    else
+                    {
+                        nActiveBullets++;
+                    }
                 }
             }
 
