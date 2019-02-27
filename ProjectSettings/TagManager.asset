@@ -8,7 +8,6 @@ TagManager:
   - enemy1
   - enemy
   - border
-  - Background
   layers:
   - Default
   - TransparentFX
@@ -21,7 +20,7 @@ TagManager:
   - 'Player '
   - Enemy
   - Bullets
-  - Background
+  - 
   - 
   - 
   - 

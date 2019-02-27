@@ -16,7 +16,9 @@ public class Movement : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
         rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * speed, 0);
-
-
+        if (Input.GetButtonDown("Fire1"))
+        {
+            GetComponent<shoot>().Shoot();
+        }
     }
 }

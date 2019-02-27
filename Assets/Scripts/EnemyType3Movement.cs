@@ -28,9 +28,10 @@ public class EnemyType3Movement : MonoBehaviour
 
     void Shoot()
     {
-        if ( PlayerIsNear())
+        if (Time.time > nextFire && PlayerIsNear())
         {
-            GetComponent<shoot>().Shoot(fireRate);
+            nextFire = Time.time + fireRate;
+            GetComponent<shoot>().Shoot();
         }
         else return;
     }
