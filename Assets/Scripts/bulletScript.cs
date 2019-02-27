@@ -10,6 +10,7 @@ public class bulletScript : MonoBehaviour {
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+       
     }
 
     void Update()
