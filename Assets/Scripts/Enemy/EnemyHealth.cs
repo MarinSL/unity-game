@@ -11,7 +11,8 @@ public class Health : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("bullet"))
+        if (collision.gameObject.CompareTag("bullet") || collision.gameObject.CompareTag("Player"))
+
         {
             health--;
             if(health <= 0)
