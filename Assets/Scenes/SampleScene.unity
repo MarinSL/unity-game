@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 83808544}
   m_Layer: 11
   m_Name: background 2
-  m_TagString: Untagged
+  m_TagString: Background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -429,15 +429,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240459189}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 53c2d53593fe79d45a4ad9b3c2f57f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1518755369, guid: 13db77185aeb83542b14e9dddf6630ee, type: 3}
   spawnRate: 2
   spawnRangeMin: -240
   spawnRangeMax: 240
+  enemyList: []
 --- !u!61 &240459191
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -703,7 +703,7 @@ GameObject:
   - component: {fileID: 564798900}
   m_Layer: 11
   m_Name: background
-  m_TagString: Untagged
+  m_TagString: Background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -964,7 +964,7 @@ GameObject:
   - component: {fileID: 806532841}
   m_Layer: 11
   m_Name: background
-  m_TagString: Untagged
+  m_TagString: Background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1007,7 +1007,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 65d23db0316daba4992537d3b1829f4d, type: 3}
-  m_Color: {r: 0.6557901, g: 1, b: 0.6273585, a: 1}
+  m_Color: {r: 0.5936445, g: 1, b: 0.5613208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1363,7 +1363,7 @@ GameObject:
   - component: {fileID: 1172679854}
   m_Layer: 11
   m_Name: background 2
-  m_TagString: Untagged
+  m_TagString: Background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1518,7 +1518,7 @@ GameObject:
   - component: {fileID: 1186231991}
   m_Layer: 11
   m_Name: background 2
-  m_TagString: Untagged
+  m_TagString: Background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1647,7 +1647,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 796adfbe6267cb44bb387202f03d4b90, type: 3}
-  m_Color: {r: 1, g: 0.25943398, b: 0.8266834, a: 1}
+  m_Color: {r: 0.9433962, g: 0.32484868, b: 0.7993957, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1848,7 +1848,7 @@ GameObject:
   - component: {fileID: 1448318873}
   m_Layer: 11
   m_Name: background 2
-  m_TagString: Untagged
+  m_TagString: Background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2245,7 +2245,7 @@ GameObject:
   - component: {fileID: 1960149916}
   m_Layer: 11
   m_Name: background
-  m_TagString: Untagged
+  m_TagString: Background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2400,7 +2400,7 @@ GameObject:
   - component: {fileID: 2010489133}
   m_Layer: 11
   m_Name: background
-  m_TagString: Untagged
+  m_TagString: Background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2584,9 +2584,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2113869444}
+  - component: {fileID: 2113869445}
   m_Layer: 11
   m_Name: Background
-  m_TagString: Background
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2609,6 +2610,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2113869445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113869443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240fbb0c8276f2047b0b18dfa0842958, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeDuration: 3
+  levelDuration: 7
+  colors:
+  - {r: 0.3647059, g: 0.23195294, b: 0.23195294, a: 1}
+  - {r: 0.10233033, g: 1, b: 0, a: 1}
+  - {r: 0, g: 0.91298866, b: 1, a: 1}
+  - {r: 1, g: 0, b: 0.8227806, a: 1}
+  - {r: 0.9061289, g: 1, b: 0, a: 1}
 --- !u!1 &2125489464
 GameObject:
   m_ObjectHideFlags: 0
@@ -2739,11 +2760,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53c2d53593fe79d45a4ad9b3c2f57f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1981814199846034, guid: 0946c758c2ef1e04892d3864849cb82b,
-    type: 3}
   spawnRate: 1
   spawnRangeMin: -240
   spawnRangeMax: 240
+  enemyList:
+  - {fileID: 1981814199846034, guid: 0946c758c2ef1e04892d3864849cb82b, type: 3}
 --- !u!61 &2144672638
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2826,7 +2847,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144672636}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 350, z: 0.5}
+  m_LocalPosition: {x: 0, y: 400, z: 0.5}
   m_LocalScale: {x: 5.4314194, y: 5.4737935, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
