@@ -159,16 +159,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1518755369}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b866973507e8fcc47a5a29045721017f, type: 3}
+  m_Script: {fileID: 11500000, guid: 624172128ad7fee46aa373f4f127849e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitudeMin: 3
-  amplitudeMax: 10
-  frequencyMin: 0.5
-  frequencyMax: 2.5
-  speed: 100
+  amplitudeMin: 1
+  amplitudeMax: 5
+  frequencyMin: 1
+  frequencyMax: 5
+  speed: 50
   speedMultipl: 10
-  firstPhaseLength: 1.5
+  firstPhaseLength: 4
 --- !u!114 &7938073973539593476
 MonoBehaviour:
   m_ObjectHideFlags: 0

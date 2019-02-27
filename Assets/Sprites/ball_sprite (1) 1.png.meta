@@ -1,19 +1,18 @@
 fileFormatVersion: 2
-guid: 98dfefec2e325974794da74b0e3410ee
+guid: 274e625fc9b8457449fb953d822921f1
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ball_sprite (1)_0
-    21300002: ball_sprite (1)_1
-    21300004: ball_sprite (1)_2
-    21300006: ball_sprite (1)_3
-    21300008: ball_sprite (1)_4
-    21300010: ball_sprite (1)_5
-    21300012: ball_sprite (1)_6
-    21300014: ball_sprite (1)_7
-    21300016: ball_sprite (1)_8
-    21300018: ball_sprite (1)_9
-    21300020: ball_sprite (1)_10
-    2186277476908879412: ImportLogs
+    21300000: ball_sprite (1) 1_0
+    21300002: ball_sprite (1) 1_1
+    21300004: ball_sprite (1) 1_2
+    21300006: ball_sprite (1) 1_3
+    21300008: ball_sprite (1) 1_4
+    21300010: ball_sprite (1) 1_5
+    21300012: ball_sprite (1) 1_6
+    21300014: ball_sprite (1) 1_7
+    21300016: ball_sprite (1) 1_8
+    21300018: ball_sprite (1) 1_9
+    21300020: ball_sprite (1) 1_10
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -53,7 +52,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 2
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -96,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ball_sprite (1)_0
+      name: ball_sprite (1) 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -104,19 +103,19 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95f1baa2a2a71244d90bd1d527eba06b
+      spriteID: bc4e373f3d462bc42a8596bf8310f1df
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ball_sprite (1)_1
+      name: ball_sprite (1) 1_1
       rect:
         serializedVersion: 2
         x: 559
@@ -124,19 +123,19 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1b7bad2d36554245a9e3134548b5aba
+      spriteID: 40aef7091b83b1e4a8866e486ab977a5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ball_sprite (1)_2
+      name: ball_sprite (1) 1_2
       rect:
         serializedVersion: 2
         x: 1118
@@ -144,19 +143,19 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4144fa1429a208b4bb165feb6d4785d4
+      spriteID: 43260512ae8638b4296a112fcbb959dc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ball_sprite (1)_3
+      name: ball_sprite (1) 1_3
       rect:
         serializedVersion: 2
         x: 0
@@ -164,19 +163,19 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae7d663ffdc725443bae38fc59cd6628
+      spriteID: 1b2ef53ff81419f44ba0182b4250da79
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ball_sprite (1)_4
+      name: ball_sprite (1) 1_4
       rect:
         serializedVersion: 2
         x: 559
@@ -184,19 +183,19 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e3f0641b74b95349b6e457b305e6b74
+      spriteID: bae2dc9bf135acf4e96cc7403c3ba1f6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ball_sprite (1)_5
+      name: ball_sprite (1) 1_5
       rect:
         serializedVersion: 2
         x: 1118
@@ -204,19 +203,19 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc43ef71baef4304696460c20ee69cd7
+      spriteID: ee9ff930ddd19a845a45dd66f03ab9ec
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ball_sprite (1)_6
+      name: ball_sprite (1) 1_6
       rect:
         serializedVersion: 2
         x: 0
@@ -224,19 +223,19 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cf9cf80de83f3e4dab6dbff6648d3a4
+      spriteID: 633d505be3b13f6449a1fc0183ab9940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ball_sprite (1)_7
+      name: ball_sprite (1) 1_7
       rect:
         serializedVersion: 2
         x: 559
@@ -244,19 +243,19 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 803ff117a022c404583939e85049afbc
+      spriteID: ad30065f956e7a942856a4445ebf5eee
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ball_sprite (1)_8
+      name: ball_sprite (1) 1_8
       rect:
         serializedVersion: 2
         x: 1118
@@ -264,19 +263,19 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03c9f4623ebcf7a41ad8c4ec487f60be
+      spriteID: d3b77dd09bf98bc4db03e3e140d68d58
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ball_sprite (1)_9
+      name: ball_sprite (1) 1_9
       rect:
         serializedVersion: 2
         x: 0
@@ -284,13 +283,33 @@ TextureImporter:
         width: 559
         height: 1234
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb325f4af52c22c4282456ef67cd0769
+      spriteID: 165847645133e2c41a46728e50594e30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_sprite (1) 1_10
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 0
+        width: 559
+        height: 1234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5410cf9e68625b246a13e4081aa0a435
       vertices: []
       indices: 
       edges: []
@@ -298,7 +317,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e83acadf05b02f44abeac5fdece58e57
+    spriteID: b4caaa5403399d94887bd0c18751bb4a
     vertices: []
     indices: 
     edges: []
