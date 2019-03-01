@@ -1,0 +1,1044 @@
+fileFormatVersion: 2
+guid: 83ced347e66fc6742a7a93bf2f0e70a2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: shitty_proj_sprite_0
+    21300002: shitty_proj_sprite_1
+    21300004: shitty_proj_sprite_2
+    21300006: shitty_proj_sprite_3
+    21300008: shitty_proj_sprite_4
+    21300010: shitty_proj_sprite_5
+    21300012: shitty_proj_sprite_6
+    21300014: shitty_proj_sprite_7
+    21300016: shitty_proj_sprite_8
+    21300018: shitty_proj_sprite_9
+    21300020: shitty_proj_sprite_10
+    21300022: shitty_proj_sprite_11
+    21300024: shitty_proj_sprite_12
+    21300026: shitty_proj_sprite_13
+    21300028: shitty_proj_sprite_14
+    21300030: shitty_proj_sprite_15
+    21300032: shitty_proj_sprite_16
+    21300034: shitty_proj_sprite_17
+    21300036: shitty_proj_sprite_18
+    21300038: shitty_proj_sprite_19
+    21300040: shitty_proj_sprite_20
+    21300042: shitty_proj_sprite_21
+    21300044: shitty_proj_sprite_22
+    21300046: shitty_proj_sprite_23
+    21300048: shitty_proj_sprite_24
+    21300050: shitty_proj_sprite_25
+    21300052: shitty_proj_sprite_26
+    21300054: shitty_proj_sprite_27
+    21300056: shitty_proj_sprite_28
+    21300058: shitty_proj_sprite_29
+    21300060: shitty_proj_sprite_30
+    21300062: shitty_proj_sprite_31
+    21300064: shitty_proj_sprite_32
+    21300066: shitty_proj_sprite_33
+    21300068: shitty_proj_sprite_34
+    21300070: shitty_proj_sprite_35
+    21300072: shitty_proj_sprite_36
+    21300074: shitty_proj_sprite_37
+    21300076: shitty_proj_sprite_38
+    21300078: shitty_proj_sprite_39
+    21300080: shitty_proj_sprite_40
+    21300082: shitty_proj_sprite_41
+    21300084: shitty_proj_sprite_42
+    21300086: shitty_proj_sprite_43
+    21300088: shitty_proj_sprite_44
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shitty_proj_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1038
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b0c0ced847225468f42326f7c1239c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1038
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507df7f6f5b0f8c40bcf2009fa5cddf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1038
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b239ee0c496c2419564f4f40c417ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1038
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf90e066b7d24944a719127f665fc1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1038
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b344412c62cc7340b6da445c44de64b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1038
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f812ea5284a1e7c499bdedc65397c8c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1038
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1b29c537930f5488f7818d70563d85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 865
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18df472843e649469b909353e86913f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 865
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50160b199fc3a34c87701bb9ed2f36d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 865
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317db55a87dc0a44993b0f8046af0773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 865
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bb9aad4642792479b97a370b0b07d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 865
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a489eb0b3b9bf94a9ae84ae255af4b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 865
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17c754b588fd8c4aaa56acdecef264c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 865
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9e7755b3aab1d4bba392bac85da716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 692
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e57e388a71e0946ad921e3364b8e8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 692
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8fa4c79cf15f946ad0ad26430ee319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 692
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d4fdcffa24d714ea26901e210c0eb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 692
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a6d62c963895342918ca3ef4b7d163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 692
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe708a52faa89e418d4ba5007bd6fdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 692
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f3dd58391566743a3a8e0fc85334ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 692
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39089248188c0f7418ecc1f30e4c1014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 519
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d878afda3d8b7428a9600b053168cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 519
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfad36e1066e454da2111bca2f2a33f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 519
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aec95946fba5a4289ddc9a574b48d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 519
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6df1eae9b50934b9a76e662b2af1ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 519
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1511319622978684ca7d5bd5dfaa284d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 519
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b456070a82332a4b8bfbf4f03c645fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 519
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969334ef1effd874999b0ff197ae0410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 346
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96e0da86d4df62448e780cd547773ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 346
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d68361d3fd614b4fa7fcf6f6d3a7447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 346
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d818d22a506c8d4299f0639c0a3ba1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 346
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42959c47b28de6e41abcb5a6801e3e67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 346
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e443b09f0d275e0478f6a2a3e6191e89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 346
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5ed001cc4c58c46b35d746ca77d66d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 346
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75b30846ebe6a84a856b58c0f10cf20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 173
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1007fd1e0edc89e47ab7ae2b02ffa759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 173
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ae732ecaebc6c48aa2f48ad38851fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 173
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66e0c8ab2ddf9e4588efed3de5811b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 173
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b172b5e63742c418a4d48d41a85f2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 173
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5b448a5aa434e4e83fdc25d52d16b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 173
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f32cb5e37cf92438ae806665016f50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_41
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 173
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feeea0b07ae3e2647a1296a5a8f058d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eca49d8a86c923449674ae9b1d18920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_43
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa45302fc702a24ab1b3b661666bad1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shitty_proj_sprite_44
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 165
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553216d097908d24593ff19caea6a1e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 353d1dc6673c0ea4f96698e3674d2931
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
