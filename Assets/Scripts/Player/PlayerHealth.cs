@@ -6,7 +6,9 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-
+    //public AudioClip impactsound;
+    public float volume;
+    public AudioSource impactsound;
     public int health;
     float DamageSliderValue;
     public int damage1;
@@ -19,6 +21,7 @@ public class PlayerHealth : MonoBehaviour
             health -= damage1;
             healthBarSlider.value -= DamageSliderValue;
             if (health <= 0) SceneManager.LoadScene(2);
+            impactsound.Play(1);
         }
     }
     void Start()

@@ -38,6 +38,11 @@ public class EnemyType1Movemnt : MonoBehaviour {
         {
             transform.position = new Vector3(collision.gameObject.transform.position.x - 10, transform.position.y, transform.position.z);
         }
-
+        
+        if (collision.gameObject.CompareTag("Player"))
+        {
+                Destroy(gameObject);
+        }
+        
     }
 }

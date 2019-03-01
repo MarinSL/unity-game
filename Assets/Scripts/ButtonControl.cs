@@ -11,7 +11,7 @@ public class ButtonControl : MonoBehaviour {
     {
         if (isStart)
         {
-            Application.LoadLevel(1);
+            Application.LoadLevel(3);
            
         }
         if (isQuit)

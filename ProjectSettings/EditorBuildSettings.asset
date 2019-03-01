@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DeadScene.unity
     guid: efd98a0269d0c6c47a7b26d41a4dbc39
+  - enabled: 1
+    path: Assets/Scenes/SamplesceneWBG.unity
+    guid: f5c1c2e9ca719d348ad498fb2d26278b
   m_configObjects: {}
