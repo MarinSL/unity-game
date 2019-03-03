@@ -19,6 +19,7 @@ public class EnemyType3Movement : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
+        transform.position = new Vector3(transform.position.x, transform.position.y - 100, transform.position.z);
     }
 
     void Move()
@@ -28,11 +29,11 @@ public class EnemyType3Movement : MonoBehaviour
 
     void Shoot()
     {
-        if ( PlayerIsNear())
+        if (Time.time > nextFire)
         {
-            GetComponent<shoot>().Shoot(fireRate);
+            GetComponent<shoot>().Shoot(0);
+            nextFire = Time.time + fireRate;
         }
-        else return;
     }
 
     bool PlayerIsNear()

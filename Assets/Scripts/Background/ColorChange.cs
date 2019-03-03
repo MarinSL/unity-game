@@ -7,11 +7,9 @@ public class ColorChange : MonoBehaviour
     float changeDuration;
     [SerializeField]
     float levelDuration;
+
     [SerializeField]
     Color[] colors = new Color[5];
-
-    
-
     Color color1, color2;
 
     GameObject[] backgrounds;
@@ -25,6 +23,7 @@ public class ColorChange : MonoBehaviour
     void Start()
     {
         startTime = Time.time;
+
         color1 = colors[0];
         color2 = colors[1];
 
@@ -58,11 +57,10 @@ public class ColorChange : MonoBehaviour
                 }
                 startTime = Time.time;
             }
-
         }
     }
 
-    bool ChangeColor()
+   public bool ChangeColor()
     {
         if (t <= 1)
         {
@@ -74,7 +72,9 @@ public class ColorChange : MonoBehaviour
                 spriteRenderers[i].color = color;
             }
             return false;
+        } else
+        {
+            return true;
         }
-        else return true;
     }
 }
