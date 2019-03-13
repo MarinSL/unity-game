@@ -9,9 +9,9 @@ public class shoot : MonoBehaviour {
     int nActiveBullets = 0;
     int currentAmmo = 500;
     bool gotBullet;
-    public float fireRate;
-    public Transform firePoint;
-    public GameObject bulletPrefab;
+    float fireRate;
+    Transform firePoint;
+    GameObject bulletPrefab;
 
     int nBulletsInPool = 5;//20 - max number of bullets on screen
     List<GameObject> bullets; 
@@ -55,7 +55,7 @@ public class shoot : MonoBehaviour {
         }
     }
 
-    void setBulletsArray()
+    void SetBulletsArray()
     {
         GameObject bullet;
         for (int i = 0; i<nBulletsInPool;i++)
@@ -66,16 +66,21 @@ public class shoot : MonoBehaviour {
         }
     }
 
+    public void SetBullet(GameObject bullet)
+    {
+        bulletPrefab = bullet;
+        bullets = new List<GameObject>();
+        SetBulletsArray();
+    }
+
+    public void SetFirePoint(Transform fp)
+    {
+        firePoint = fp;
+    }
     // Use this for initialization
     void Start()
     {
-        bullets = new List<GameObject>();
-        setBulletsArray();
+        
     }
 
-    
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

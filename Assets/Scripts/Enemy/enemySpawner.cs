@@ -65,13 +65,17 @@ public class EnemySpawner : MonoBehaviour {
 
     private void OnNarrativeStarted(int lvl)
     {
-        clearEnemies();
+        //clearEnemies();
     }
 
     private void ChangeEnemies(int lvl)
     {
         switch (lvl)
         {
+            case 1:
+                addEnemy(enemies[0]);
+                addEnemy(enemies[2]);
+                break;
             case 2:
                 addEnemy(enemies[1]);
                 break;

@@ -2746,8 +2746,8 @@ GameObject:
   - component: {fileID: 2144672639}
   - component: {fileID: 2144672638}
   - component: {fileID: 2144672643}
-  - component: {fileID: 2144672637}
   - component: {fileID: 2144672641}
+  - component: {fileID: 2144672637}
   - component: {fileID: 2144672642}
   m_Layer: 0
   m_Name: enemy spawner
@@ -2768,7 +2768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53c2d53593fe79d45a4ad9b3c2f57f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRate: 1
+  spawnRate: 0
   spawnRangeMin: -240
   spawnRangeMax: 240
   enemies:

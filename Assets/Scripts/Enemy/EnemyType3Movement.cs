@@ -5,13 +5,13 @@ using UnityEngine;
 public class EnemyType3Movement : MonoBehaviour
 {
     public float movementWidth;
-    public Vector3 down;
-
+    Vector3 down;
     Vector3 targetDir;
 
     GameObject player;
-    GameObject bullet;
+    public Transform firePoint;
 
+    public GameObject bullet;
     public float angle;
     float nextFire = 0;
     float fireRate = 2;
@@ -19,7 +19,9 @@ public class EnemyType3Movement : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        transform.position = new Vector3(transform.position.x, transform.position.y - 100, transform.position.z);
+        transform.position += new Vector3(0, - 100, 0);
+        GetComponent<shoot>().SetBullet(bullet);
+        GetComponent<shoot>().SetFirePoint(firePoint);
     }
 
     void Move()
