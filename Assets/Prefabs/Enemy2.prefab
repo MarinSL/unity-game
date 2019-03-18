@@ -167,7 +167,7 @@ MonoBehaviour:
   amplitudeMax: 5
   frequencyMin: 1
   frequencyMax: 5
-  speed: 100
+  speed: 10
   speedMultipl: 10
   firstPhaseLength: 4
 --- !u!114 &7938073973539593476
