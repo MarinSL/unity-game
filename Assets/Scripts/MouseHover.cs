@@ -7,7 +7,7 @@ public class MouseHover : MonoBehaviour {
     void Start()
     {
         rend = GetComponent<Renderer>();
-        rend.material.color = Color.black;
+        rend.material.color = Color.white;
     }
 
     void OnMouseEnter()
@@ -18,7 +18,7 @@ public class MouseHover : MonoBehaviour {
 
     void OnMouseExit()
     {
-        rend.material.color = Color.black;
+        rend.material.color = Color.white;
        
     }
 }

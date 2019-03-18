@@ -185,6 +185,8 @@ MonoBehaviour:
   volume: 1
   impactnoise: {fileID: 7354520926581265167}
   health: 1
+  deatheffect: {fileID: 4304509904010025448, guid: e722e499dda09774fb875ba965b83183,
+    type: 3}
 --- !u!1 &8573002044470622195
 GameObject:
   m_ObjectHideFlags: 0

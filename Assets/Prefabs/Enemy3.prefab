@@ -356,3 +356,5 @@ MonoBehaviour:
   volume: 1
   impactnoise: {fileID: 4628701091791545395}
   health: 2
+  deatheffect: {fileID: 4304509904010025448, guid: e722e499dda09774fb875ba965b83183,
+    type: 3}

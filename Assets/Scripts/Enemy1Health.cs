@@ -7,6 +7,7 @@ public class Enemy1Health : MonoBehaviour
     public float volume;
     public AudioSource impactnoise;
     public int health;
+    public ParticleSystem deatheffect;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("bullet"))
@@ -15,9 +16,9 @@ public class Enemy1Health : MonoBehaviour
              impactnoise.Play(1);
             if (health <= 0)
             {
-               
-                Destroy(gameObject);
                 
+                Destroy(gameObject);
+                Instantiate(deatheffect);
             }
         }
     }
