@@ -40,6 +40,7 @@ public class PlayerHealth : MonoBehaviour
         {
             health += InitialHealth * restoreValue;
             healthBarSlider.value = health;
+            Debug.Log("heyy");
         }
     }
 

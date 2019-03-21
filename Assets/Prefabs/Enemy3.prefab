@@ -323,8 +323,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementWidth: 90
-  down: {x: 1, y: 1, z: 0}
+  firePoint: {fileID: 8219883467772957989}
+  bullet: {fileID: 8153466175051067523, guid: fbe21167bd62f03439f661870b6a7787, type: 3}
   angle: 2
+  Yspeed: 80
+  Xspeed: 1
 --- !u!114 &8219883469049841404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -337,10 +340,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f756347744ad8844b5a7440294ee9a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 2
-  firePoint: {fileID: 8219883467772957989}
-  bulletPrefab: {fileID: 8153466175051067523, guid: fbe21167bd62f03439f661870b6a7787,
-    type: 3}
 --- !u!114 &6218522207685412716
 MonoBehaviour:
   m_ObjectHideFlags: 0

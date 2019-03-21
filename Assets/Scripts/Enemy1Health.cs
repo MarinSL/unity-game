@@ -19,9 +19,8 @@ public class Enemy1Health : MonoBehaviour
             impactnoise.pitch = Random.Range(pitchmin, pitchmax);
             if (health <= 0)
             {
-                
-                Destroy(gameObject);
                 Instantiate(deatheffect, transform.position, transform.rotation);
+                Destroy(gameObject);
             }
         }
     }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LevelColorChanger : MonoBehaviour
+public class LevelColourChanger : MonoBehaviour
 {
     [SerializeField]
     Color[] colors = new Color[5];
@@ -90,4 +90,3 @@ public class LevelColorChanger : MonoBehaviour
         }
     }
 }
-

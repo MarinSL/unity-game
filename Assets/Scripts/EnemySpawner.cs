@@ -76,6 +76,9 @@ public class EnemySpawner : MonoBehaviour
     {
         switch (lvl)
         {
+            case 1:
+                addEnemy(enemies[0]);
+                break;
             case 2:
                 addEnemy(enemies[1]);
                 break;

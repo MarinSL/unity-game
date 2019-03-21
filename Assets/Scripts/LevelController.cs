@@ -6,14 +6,13 @@ using UnityEngine;
 public class LevelController : MonoBehaviour
 {
     [SerializeField]
-    float levelDuration = 0;
-    [SerializeField]
-    float timeLeft;
+    float levelDuration = 10;
+
+    float timePassed;
     float startTime;
     int lvl = 0;
-
-    [SerializeField]
-    bool changingLevel = false;
+    
+    bool changingLevel = true;
 
 
     [SerializeField]
@@ -25,7 +24,6 @@ public class LevelController : MonoBehaviour
     //Fires on new level. Uses i.e. in LevelColorChanger
     public static event Action<int> LevelChanged;
 
-    [SerializeField]
     private bool lvlInProgress = true;
 
     // Start is called before the first frame update
@@ -42,16 +40,13 @@ public class LevelController : MonoBehaviour
         {
             if (lvl < 5)
             {
-                timeLeft = Time.time - startTime;
-
-                if (timeLeft >= levelDuration)
+                timePassed = Time.time - startTime;
+                if (timePassed >= levelDuration || lvl == 0)
                 {
-                    lvl++;
                     lvlInProgress = false;
                     if (LevelChanged != null)
                         LevelChanged(lvl);
-
-
+                    lvl++;
                     startTime = Time.time;
                 }
             }
