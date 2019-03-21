@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Enemy1Health : MonoBehaviour
 {
+    public float pitchmax;
+    public float pitchmin;
     public float volume;
     public AudioSource impactnoise;
     public int health;
@@ -13,12 +15,13 @@ public class Enemy1Health : MonoBehaviour
         if (collision.gameObject.CompareTag("bullet"))
         {
             health--;
-             impactnoise.Play(1);
+            impactnoise.Play(1);
+            impactnoise.pitch = Random.Range(pitchmin, pitchmax);
             if (health <= 0)
             {
                 
                 Destroy(gameObject);
-                Instantiate(deatheffect);
+                Instantiate(deatheffect, transform.position, transform.rotation);
             }
         }
     }

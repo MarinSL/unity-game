@@ -3,26 +3,25 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 
-public class shoot : MonoBehaviour {
+public class shoot : MonoBehaviour
+{
 
-    int nBullets = 0 ;
+    int nBullets = 0;
     int nActiveBullets = 0;
     int currentAmmo = 500;
     bool gotBullet;
-    public float fireRate;
-    public Transform firePoint;
-    public GameObject bulletPrefab;
+    float fireRate;
+    Transform firePoint;
+    GameObject bulletPrefab;
 
-    int nBulletsInPool = 20;//20 - max number of bullets on screen
-    List<GameObject> bullets; 
+    int nBulletsInPool = 5;//20 - max number of bullets on screen
+    List<GameObject> bullets;
 
     float nextFire = 0;
-
 
     public void Shoot(float fr)
     {
         fireRate = fr;
-
         if (Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
@@ -30,7 +29,6 @@ public class shoot : MonoBehaviour {
             {
                 if (bullets[i] != null)
                 {
-
                     if (!bullets[i].activeInHierarchy)
                     {
                         bullets[i].transform.rotation = firePoint.rotation;
@@ -42,7 +40,6 @@ public class shoot : MonoBehaviour {
                     {
                         nActiveBullets++;
                     }
-
                 }
             }
 
@@ -59,10 +56,10 @@ public class shoot : MonoBehaviour {
         }
     }
 
-    void setBulletsArray()
+    void SetBulletsArray()
     {
         GameObject bullet;
-        for (int i = 0; i<nBulletsInPool;i++)
+        for (int i = 0; i < nBulletsInPool; i++)
         {
             bullet = Instantiate(bulletPrefab);
             bullets.Add(bullet);
@@ -70,16 +67,21 @@ public class shoot : MonoBehaviour {
         }
     }
 
+    public void SetBullet(GameObject bullet)
+    {
+        bulletPrefab = bullet;
+        bullets = new List<GameObject>();
+        SetBulletsArray();
+    }
+
+    public void SetFirePoint(Transform fp)
+    {
+        firePoint = fp;
+    }
     // Use this for initialization
     void Start()
     {
-        bullets = new List<GameObject>();
-        setBulletsArray();
+
     }
 
-    
-	// Update is called once per frame
-	void Update () {
-
-	}
 }

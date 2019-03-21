@@ -167,8 +167,8 @@ MonoBehaviour:
   amplitudeMax: 5
   frequencyMin: 1
   frequencyMax: 5
-  speed: 10
-  speedMultipl: 10
+  speed: 35
+  speedMultipl: 20
   firstPhaseLength: 4
 --- !u!114 &7938073973539593476
 MonoBehaviour:
@@ -182,6 +182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7f09d99378209447ab90c17bd809432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pitchmax: 0.95
+  pitchmin: 1.05
   volume: 1
   impactnoise: {fileID: 7354520926581265167}
   health: 1

@@ -353,8 +353,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7f09d99378209447ab90c17bd809432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pitchmax: 0
+  pitchmin: 0
   volume: 1
   impactnoise: {fileID: 4628701091791545395}
   health: 2
-  deatheffect: {fileID: 4304509904010025448, guid: e722e499dda09774fb875ba965b83183,
+  deatheffect: {fileID: 7488490122345902582, guid: 4d2d82645c80dfa458e72487bc4299b3,
     type: 3}
