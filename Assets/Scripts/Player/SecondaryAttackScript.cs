@@ -29,7 +29,11 @@ public class SecondaryAttackScript : MonoBehaviour
        
         if (!collision.gameObject.CompareTag("bullet"))
         {
-            if (player != null) { player.GetComponent<PlayerHealth>().RestoreHealth(RestoreValue); Debug.Log("Restored"); } else Debug.Log("Player is null");
+            if (player != null) {
+                player.GetComponent<PlayerHealth>().RestoreHealth(RestoreValue);
+                Debug.Log("Restored");
+            }
+            else Debug.Log("Player is null");
         }
     }
     void OnBecameInvisible()
