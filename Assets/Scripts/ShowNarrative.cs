@@ -19,10 +19,10 @@ public class ShowNarrative : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        midLeveltext[0] = "Врач-травматолог Тольяттинской городской клинической больницы №5 Алексей Карчинский опубликовал на своей странице Вконтакте зарплатную ведомость. Таким образом медик пытался привлечь внимание общественности о расхождении статистических данных по средней зарплате врачей в городе.";
-        midLeveltext[1] = "M E O W 2";
+        midLeveltext[0] = "irrrrrrrr boi";
+        midLeveltext[1] = "wake me up inside";
         midLeveltext[2] = "mEoW 3";
-        midLeveltext[3] = "If you are using the print statement to debug time-based programming, it does not work reliably. BUT if you add the bizarre double-yield as a quick fix during development -- in fact the print statement will then effectively work properly for you during development.";
+        midLeveltext[3] = "";
         midLeveltext[4] = "your parents don't love you 5";
         narText.text = "its ya boi";
 
