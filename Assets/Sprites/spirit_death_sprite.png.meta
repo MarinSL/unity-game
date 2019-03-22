@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: d854b9f6cc6f6e9458298d936ac99071
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: spirit_death_sprite_0
+    21300002: spirit_death_sprite_1
+    21300004: spirit_death_sprite_2
+    21300006: spirit_death_sprite_3
+    21300008: spirit_death_sprite_4
+    21300010: spirit_death_sprite_5
+    21300012: spirit_death_sprite_6
+    21300014: spirit_death_sprite_7
+    21300016: spirit_death_sprite_8
+    21300018: spirit_death_sprite_9
+    21300020: spirit_death_sprite_10
+    21300022: spirit_death_sprite_11
+    21300024: spirit_death_sprite_12
+    21300026: spirit_death_sprite_13
+    21300028: spirit_death_sprite_14
+    21300030: spirit_death_sprite_15
+    21300032: spirit_death_sprite_16
+    21300034: spirit_death_sprite_17
+    21300036: spirit_death_sprite_18
+    21300038: spirit_death_sprite_19
+    21300040: spirit_death_sprite_20
+    21300042: spirit_death_sprite_21
+    21300044: spirit_death_sprite_22
+    21300046: spirit_death_sprite_23
+    21300048: spirit_death_sprite_24
+    21300050: spirit_death_sprite_25
+    21300052: spirit_death_sprite_26
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -40,7 +67,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +96,560 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: spirit_death_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4560
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf3274473255bb44a7f381ac2c48f47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 4560
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884137b675ad380449d2dce1a05e6d07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 4560
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55283a4a9e1ef647b8b3e0f55c6edbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 4560
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9999f8fa32b951a418a48811645ae6e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 4560
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4c7f1ef9dd87648b7fbc05417d47e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 4560
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24af607ac11d2a04facf6865b34a8c21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 4560
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e918e9ad45335ca48a30887092eaa7ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3040
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb49912092903047a0d9b15110c856e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 3040
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ed68946754ac44dbe52a1b4becacd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 3040
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3a955ffc0a50043b567bb043e98c42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 3040
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb5ae3ee7b615547b57bac858f0a0b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 3040
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb34b9991ace04459271404bffd3ba0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 3040
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b526d722b0a16e241b48622811631ba0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 3040
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489bd5079a6d9ae4ba0a70783f0d148a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1520
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092fb6121919ef64ebc58ea37f759aea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1520
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18654cc8114cb0840b0bca2c6fd2ba2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1520
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042dfa32432f4fc42903b5052bf85ad2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 1520
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ddb65c90959cb45861015121c670ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 1520
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649a48a75b5b72544808c7184ee6a2b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 1520
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed07b47e8301fa644a7abf7caa03e7f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 1520
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6e462eafb2ef1478ec23de5a15735f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ee20ca61fc6c948904163835b91493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 0
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b656e6fd188b094479269ebf40ac71b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 0
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb659714b680fb6419e562b60e18c5b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 0
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd662a52590d514c8ab45b924ccafb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 0
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d516dac4aec635e4283f2bf5031a53c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spirit_death_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 0
+        width: 980
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82a9139f37cfbb4a8d0ba28d1aa48d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
