@@ -172,7 +172,7 @@ GameObject:
   - component: {fileID: 8219883469049841400}
   - component: {fileID: 8219883469049841401}
   - component: {fileID: 8219883469049841404}
-  - component: {fileID: 6218522207685412716}
+  - component: {fileID: 533038981574845904}
   m_Layer: 9
   m_Name: Enemy3
   m_TagString: enemy
@@ -340,7 +340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f756347744ad8844b5a7440294ee9a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6218522207685412716
+--- !u!114 &533038981574845904
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -349,13 +349,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8219883469049841402}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7f09d99378209447ab90c17bd809432, type: 3}
+  m_Script: {fileID: 11500000, guid: e29c52e307f4c094e9a50ae4291c4805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pitchmax: 0
-  pitchmin: 0
-  volume: 1
+  health: 5
   impactnoise: {fileID: 4628701091791545395}
-  health: 2
+  pitchmax: 0.95
+  pitchmin: 1.05
   deatheffect: {fileID: 7488490122345902582, guid: 4d2d82645c80dfa458e72487bc4299b3,
     type: 3}

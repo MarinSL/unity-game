@@ -12,32 +12,41 @@ public class PlayerShoot : MonoBehaviour
     public GameObject bulletPrefab2;
     public Transform firePoint;
     float nextFire = 0;
+    bool weaponAvailble = true;
+
 
     // Start is called before the first frame update
     void Start()
     {
         GetComponent<shoot>().SetBullet(bulletPrefab1);
         GetComponent<shoot>().SetFirePoint(firePoint);
-
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (weaponAvailble)
         {
-            GetComponent<shoot>().Shoot(Delay1);
-        }
-        if (Input.GetButtonDown("Fire2"))
-        {
-            if (Time.time > nextFire)
+            if (Input.GetButtonDown("Fire1"))
             {
-                nextFire = Time.time + Delay2;
-                GameObject bullet;
-                bullet = Instantiate(bulletPrefab2);
-                bullet.transform.rotation = firePoint.rotation;
-                bullet.transform.position = firePoint.position;
+                GetComponent<shoot>().Shoot(Delay1);
+            }
+            if (Input.GetButtonDown("Fire2"))
+            {
+                if (Time.time > nextFire)
+                {
+                    nextFire = Time.time + Delay2;
+                    GameObject bullet;
+                    bullet = Instantiate(bulletPrefab2);
+                    bullet.transform.rotation = firePoint.rotation;
+                    bullet.transform.position = firePoint.position;
+                }
             }
         }
+    }
+
+    public void setWeaponAvailible(bool availble)
+    {
+        weaponAvailble = availble;
     }
 }

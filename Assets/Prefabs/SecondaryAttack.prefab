@@ -259,4 +259,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 550
-  RestoreValue: 0.05
+  RestoreValue: 0.07
+  DecreaseValue: 0.05
+  damage: 6
