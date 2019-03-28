@@ -19,12 +19,12 @@ public class ShowNarrative : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        midLeveltext[0] = "Врач-травматолог Тольяттинской городской клинической больницы №5 Алексей Карчинский опубликовал на своей странице Вконтакте зарплатную ведомость. Таким образом медик пытался привлечь внимание общественности о расхождении статистических данных по средней зарплате врачей в городе.";
-        midLeveltext[1] = "M E O W 2";
-        midLeveltext[2] = "mEoW 3";
-        midLeveltext[3] = "If you are using the print statement to debug time-based programming, it does not work reliably. BUT if you add the bizarre double-yield as a quick fix during development -- in fact the print statement will then effectively work properly for you during development.";
-        midLeveltext[4] = "your parents don't love you 5";
-        narText.text = "gtgtg";
+        midLeveltext[0] = "To deny what has happened is to deny a chance at recovery";
+        midLeveltext[1] = "Anger is a natural response, but do not let it consume you";
+        midLeveltext[2] = "Bargain all you can, but the truth remains.";
+        midLeveltext[3] = "Depression is living in a body that fights to survive with a mind that tries to die";
+        midLeveltext[4] = "There are things in life we do not want to happen, but have to accept. People we cannot live without but have to let go.";
+        narText.text = "";
 
         LevelController.LevelChanged += OnLevelChange;
     }

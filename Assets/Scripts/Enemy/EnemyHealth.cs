@@ -24,12 +24,13 @@ public class EnemyHealth : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             health--;
-            impactnoise.Play(1);
-            impactnoise.pitch = Random.Range(pitchmin, pitchmax);
+            
         }
 
         else if (collision.gameObject.CompareTag("bullet"))
         {
+            impactnoise.Play(1);
+            impactnoise.pitch = Random.Range(pitchmin, pitchmax);
             if (collision.gameObject.GetComponent<bulletScript>() != null)
                 health -= collision.gameObject.GetComponent<bulletScript>().GetDamage();
             else if (collision.gameObject.GetComponent<SecondaryAttackScript>() != null)

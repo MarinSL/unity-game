@@ -41,7 +41,7 @@ public class LevelController : MonoBehaviour
     {
         if (lvlInProgress)
         {
-            if (lvl < 5)
+            if (lvl < 6)
             {
                 timePassed = Time.time - startTime;
                 if (timePassed >= levelDuration || lvl == 0)
@@ -49,10 +49,16 @@ public class LevelController : MonoBehaviour
                     lvlInProgress = false;
 
                     if (lvl == lvlWithoutWeapon && ps != null)
+                    {
                         ps.setWeaponAvailible(false);
+                        player.GetComponent<Movement>().ChangeSprite(false);
+                    }
 
                     else if (lvl == lvlWithoutWeapon + 1 && ps != null)
+                    {
                         ps.setWeaponAvailible(true);
+                        player.GetComponent<Movement>().ChangeSprite(true);
+                    }
 
                     if (LevelChanged != null)
                         LevelChanged(lvl);
@@ -64,7 +70,7 @@ public class LevelController : MonoBehaviour
             else
             {
                 //win scene
-                SceneManager.LoadScene(4);
+                SceneManager.LoadScene(2);
 
             }
         }

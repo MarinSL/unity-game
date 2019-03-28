@@ -4,32 +4,39 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float speed;
+    [SerializeField]
+    float speed;
+    [SerializeField]
+    float acceleration;
+    [SerializeField]
+    float maxSpeed;
+    [SerializeField]
+    Sprite withWeapon;
+    [SerializeField]
+    Sprite withoutWeapon;
+
     Rigidbody2D rb;
-    float curSpeed;
-    float k = 0.3f;
+    SpriteRenderer sr;
 
 
     // Use this for initialization
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
     }
-
+    public void ChangeSprite(bool withWeaponBool)
+    {
+        if (withWeaponBool)
+            sr.sprite = withWeapon;
+        else sr.sprite = withoutWeapon;
+    }
     // Update is called once per frame
     void Update()
     {
-        if (k <= 1) k += 0.008f; //speed of k change
-        else k = 0.5f; // minimum
+        if (speed + acceleration <= maxSpeed)
+            speed += acceleration;
 
-        curSpeed = GetSpeed(k) * speed;
-
-        rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * speed * GetSpeed(k) * 0.75f, 0); // 0.8f - k influence
-    }
-
-    float GetSpeed(float k)
-    {
-        if ((k *= 2f) < 1f) return 0.5f * k * k;
-        return -0.5f * ((k -= 1f) * (k - 2f) - 1f);  //1f - ((k -= 1f) * k * k * k);
+        rb.velocity = Input.GetAxisRaw("Horizontal") * speed * Vector2.right;
     }
 }
